@@ -26,7 +26,7 @@
     <input type="button" name="button" id="loginBTN" value="Login" class="btn btn-danger rounded-5" onclick="authenticate()">
     <input type="reset" name="button" id="cancel" value="Cancel" class="btn btn-danger rounded-5">
 
-    <p id="display"></p>
+    <p id="display"></p> 
 
   </form>
 
@@ -51,7 +51,6 @@
       }   else { 
             attempt_counter++;
             document.getElementById("display").innerHTML = "Incorrect username and/or password. Attempt" + attempt_counter + " of 3 "
-
             break; //stop loop for this click
       }
     }
